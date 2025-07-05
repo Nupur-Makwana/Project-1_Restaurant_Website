@@ -29,3 +29,5 @@ How to Run
 You can view the live website here:  
 https://nupur-makwana.github.io/Project-1_Restaurant_Website/
 
+
+Thank You
