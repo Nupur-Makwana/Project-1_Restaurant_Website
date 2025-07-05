@@ -25,5 +25,7 @@ Responsive View(658 x 1132) :
 ![Screenshot 2025-07-05 184148](https://github.com/user-attachments/assets/3c543450-827d-4910-95f5-f2f6bb8be056)
 ![Screenshot 2025-07-05 184329](https://github.com/user-attachments/assets/8838ef96-7747-400d-a364-fab6632d128d)
 
-
+How to Run
+You can view the live website here:  
+https://nupur-makwana.github.io/Project-1_Restaurant_Website/
 
