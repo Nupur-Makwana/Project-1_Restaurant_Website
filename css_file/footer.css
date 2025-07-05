@@ -1,0 +1,31 @@
+footer {
+    background-color: antiquewhite;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.footer-heading, .footer-info
+{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    
+}
+.footer-info
+{
+    cursor: pointer;
+}
+.social-media
+{
+     display: flex;
+    flex-direction: row;
+    gap: 15px;
+}

@@ -1,0 +1,123 @@
+nav {
+    position: sticky;
+    top: 0px;
+    margin-bottom: 32px;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.05);
+    z-index: 1000;
+}
+
+.navigation {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container
+
+/* MAKES THE CONTAINER BE IN MIDDLE AND PROPER UNLIKE USING MARGIN AND SPACE BETWWEEN MUCH BETTER */
+    {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.logo-company
+{
+    cursor: pointer;
+}
+.burger-icon {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.main-food-container {
+    /* margin-top: 13px; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.main-food-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.offer-tag span {
+    background-color: #3ba93b;
+    padding: 5px 10px;
+    color: white;
+    font-weight: 400;
+}
+
+.header-tag h1 {
+    font-size: 72px;
+    line-height: 1.2;
+}
+
+.header-info-tag p {
+    font-size: 15px;
+    font-weight: 400;
+    width: 67%;
+}
+
+.explore-btn button {
+    background-color: #ffc066;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 15px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.15s opacity;
+}
+
+.explore-btn button:hover {
+    opacity: 0.8;
+}
+
+.offer-bar {
+    /* border: 2px solid blue; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.services-bar {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.offer-heading-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+
+}
+
+.offer-title-heading {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.offer-title-info {
+    font-weight: 300;
+}
+
+.services-bar :hover {
+    box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.05);
+}
+
+.divider {
+    border: 1px solid #ccc;
+    margin: 20px 0;
+}

@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html,
+body {
+  line-height: 1.4;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+}
+
+@media(max-width :786px) {
+    .main-food-container {
+        flex-direction: column;
+    }
+
+    .main-food-pic ,  .main-food-info{
+        display: flex;
+        justify-content: center;
+       
+    }
+    .main-food-pic img 
+    {
+        width: 80%;
+    }
+    .main-food-info
+    {
+        gap: 10px;
+        padding: 10px;
+    }
+    .main-food-info h1 
+    {
+        font-size: 32px;
+    }
+    .offer-bar
+    {
+        flex-direction: column;
+    }
+    .grid
+    {
+        padding: 10px;
+    }
+    .grid-image
+    {
+        border-radius: 0px;
+    }
+}
