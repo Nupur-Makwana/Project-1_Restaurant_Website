@@ -47,37 +47,40 @@ body {
     {
         border-radius: 0px;
     }
-       .footer-content {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 30px;
-    flex-wrap: wrap;
-    padding: 20px;
-    width: 100%;
-    overflow-x: hidden;
+
+    .footer-content {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
+        flex-wrap: wrap;
+        padding: 20px;
+        width: 100%;
+        overflow-x: hidden;
     }
 
-.footer-heading,
-.footer-info {
-    width: 100%;
-    text-align: left;
-}
+    .footer-heading,
+    .footer-info {
+        width: 100%;
+        text-align: left;
+    }
 
-.footer-info input[type="email"] {
-    width: 100%;
-    padding: 8px;
-    font-size: 16px;
-    margin-top: 8px;
-}
+    .footer-info input[type="email"] {
+        width: 100%;
+        padding: 8px;
+        font-size: 16px;
+        margin-top: 8px;
+    }
 
-.footer-info h3 {
-    margin-top: 16px;
-}
+    .footer-info h3 {
+        margin-top: 16px;
+    }
 
-.social-media {
-    margin-top: 10px;
-    gap: 12px;
-    flex-wrap: wrap;
+    .social-media {
+        margin-top: 10px;
+        gap: 12px;
+        flex-wrap: wrap;
+    }
+
 }
-}
-}
+    
+
